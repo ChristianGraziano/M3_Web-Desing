@@ -1,0 +1,20 @@
+body {
+ background: #006A80;
+    background: -moz-linear-gradient(45deg, #006A80 0%, #2388CB 40%, #752070 100%);
+    background: -webkit-linear-gradient(45deg, #006A80 0%, #2388CB 40%, #752070 100%);
+    background: linear-gradient(45deg, #006A80 0%, #2388CB 40%, #752070 100%);;
+}
+
+
+
+.prefer>figure>img{
+     transition: transform .2s;
+}
+
+.prefer>figure>img:hover {
+    transform: scale(1.2);
+}
+
+figcaption {
+    font-weight: bold;
+}
