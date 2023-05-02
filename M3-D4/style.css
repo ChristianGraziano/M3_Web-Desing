@@ -2,3 +2,61 @@
     -webkit-box-shadow: -6px 9px 15px 5px #000000; 
 box-shadow: -6px 9px 15px 5px #000000;
 }
+
+body {
+    background: linear-gradient(to bottom, #ff9100, #ffff84);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+
+  nav {
+    background: linear-gradient(to bottom, #ff9100, #ffff84);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+    
+  }
+
+  footer {
+    background: linear-gradient(to bottom, #ffa600, #fc4931);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 0%;
+    }
+    50% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+   
+  }
+  
