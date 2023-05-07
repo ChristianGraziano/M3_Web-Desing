@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#user {
+    width: 2rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+main {
+    background-color:#eae8ee;
+    padding-bottom: 8em;
+}
+
+#dati {
+    background-color: white !important;
+}
+/* MODIFICHE JUMBOTRON */
+
+
+#title {
+    font-size: 3em !important;
+    font-weight: 600;
+}
+
+#jumbotron {
+    background-color: #6f57f5;
+}
+
+
+#botton-jumbo {
+    background-color: #5fc89b !important;
+}
+
+#notification {
+    background-color: #e7e6e9;
+    border-radius: 50%;
+}
+#p-jumbo {
+    color: #BBABFF !important;
+}
+
+/* SEZIONE SOTTO AL JUMBOTRON  */
+
+
+.sezione1 ion-icon {
+    font-size: 1.1rem !important;
+    padding: 1rem;
+    background-color: #fceedc;
+    color: #b07200;
+    border-radius: 50%;
+
+}
+/* MODIFICHE CSS DELLE CARD */
+
+div.card:hover {
+    transform: scale(1.1);
+    transition: ease 0.8s;
+    -webkit-box-shadow: 5px 5px 15px 5px #7c7c7c; 
+    box-shadow: 5px 5px 15px 5px #7c7c7c ;
+}
+
+.section-card {
+    justify-content: space-between !important;
+}
+
+.star ion-icon {
+    color: #FFAA46;
+}
+
+.yellow-star {
+    background-color: #FFAA46 !important;
+}
+
+.yellow-span {
+    color: #FFAA46;
+}
+
+.barre {
+    color: #A288FF;
+}
+
+.testo-barrato {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#avatar-card {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.footer-style {
+    padding-top: 10px;
+    border-top: solid 1px rgb(189, 186, 186);
+    background-color: #eae8ee;
+}
+.card-title {
+    font-size: 1.1rem;
+}
