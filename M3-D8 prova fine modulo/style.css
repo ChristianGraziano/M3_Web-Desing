@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#logo-netflix {
+    width: 6em;
+}
+
+body {
+    background-color: #141414;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+
+.navbar-style {
+    background-color: #141414 !important;
+    
+    
+}
+
+.navbar-style a {
+    color: #808080;
+}
+
+.active {
+    color: #AFAFAD !important;
+}
+
+#navUser ion-icon {
+    color: #FFFFFB !important;
+    font-size: 1.5rem;
+}
+
+#kids {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+
+#user-img {
+    width: 2em;
+}
+
+#hamburger {
+    background-color: #3B3B3B !important;
+    
+}
+#drop {
+    font-size: 0.8em !important;
+}
+/* 1 SEZIONE CATEGORIE TV SHOW */
+
+.section1 h1 {
+    color: #B2B1B8;
+}
+
+.menu-display>ion-icon:nth-child(1) {
+    color: #B2B1B8;
+    border: solid 1px #B2B1B8;
+    padding: 0.2rem 0.5rem;
+}
+
+.menu-display>ion-icon:nth-child(2) {
+    color: #3B3B3B;
+    border: solid 1px #3B3B3B;
+    padding: 0.2rem 0.5rem;
+}
+
+#button-genres {
+    padding: 0.1rem !important;
+    border-radius: 0% !important;
+    background-color: black !important;
+
+}
+
+/* SEZIONI DELLE CARD */
+
+.card {
+    border-radius: 0% !important;
+    border: transparent;
+    cursor: pointer;
+}
+
+.card-img-top {
+    border-radius: 0% !important;
+}
+
+.card:hover {
+    transform:scale(1.2) ;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.title-section {
+    color: #AEAEAE;
+    font-size: 1.5rem;
+}
+
+/* SEZIONE DEL FOOTER */
+
+footer {
+    color: #444444;
+}
+
+footer ion-icon {
+    color: #838383;
+    font-size: 1.5rem;
+    padding-right: 0.3rem;
+    cursor: pointer;
+}
+
+footer ion-icon:hover {
+    transform: scale(1.2);
+}
+
+.list li {
+   list-style: none;
+   margin: 0.7rem;
+   cursor: pointer;
+}
+
+.list li:hover {
+   color: #AEAEAE; 
+}
+
+#service-button {
+    border: solid 1px #838383;
+    padding: 0.4rem;
+}
+
+.final span{
+    color: #444444;
+    font-size: 12px;
+}
+
+
+/* KEYFRAME */
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.sezione-card {
+    opacity: 0;
+    animation: fade-in 1s ease-in-out forwards;
+}
+
+
+@keyframes entry-left {
+    0% {transform: translateX(-240%);}
+    100% {transform: translateX(0);}
+}
+
+#scroll-icon {
+    transform: translateX(-100%);
+    animation: entry-left 3s ease-in-out 0s forwards;
+}
